@@ -5,5 +5,5 @@
 2. Установите зависимости `npm install`
 3. Запустите приложение `npm start`
 
-Либо откройте [демонстрацию](https://testovoe-vniizht.netlify.app/trains)
+Либо откройте [демонстрацию](https://testovoe-vniizht.netlify.app/)
 
