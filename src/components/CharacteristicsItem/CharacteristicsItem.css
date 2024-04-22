@@ -1,0 +1,58 @@
+.characteristics-item {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 3px 20px;
+  border-top: 1px solid var(--main-bg-color);
+  cursor: default;
+}
+
+.characteristics-item:hover {
+  background-color: var(--secondary-bg-color);
+}
+
+.characteristics-item td {
+  padding: 0;
+}
+
+.characteristics-item__input {
+  width: 133px;
+  padding: 7px 0;
+  font-size: 16px;
+  font-family: var(--main-font-family);
+  border: none;
+  border-radius: 6px;
+  background-color: var(--hover-color);
+  text-align: center;
+  outline: none;
+}
+
+.characteristics-item__input_error {
+  background-color: var(--error-color);
+  color: rgb(255, 255, 255);
+}
+
+.characteristics-item__ok {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  width: fit-content;
+}
+
+.characteristics-item__button {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 6px;
+  background-color: var(--secondary-bg-color);
+  cursor: pointer;
+}
+
+.characteristics-item__button:hover {
+  background-color: var(--main-bg-color);
+}
+
+@media (max-width: 825px) {
+  .characteristics-item__input {
+    width: 80px;
+  }
+}

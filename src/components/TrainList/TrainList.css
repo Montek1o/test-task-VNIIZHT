@@ -1,0 +1,17 @@
+.train-list {
+  width: 33%;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: var(--secondary-bg-color);
+  transition: all .3s ease;
+}
+
+.train-list__title {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 825px) {
+  .train-list {
+    width: 100%;
+  }
+}
